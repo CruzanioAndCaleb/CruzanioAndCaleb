@@ -7,8 +7,8 @@ img {
     color: #e6e6e6 !important;
 }
 .rounded-circle {
-    height: 105px;
-    width: 105px;
+    height: 6.5em;
+    width: 6.5em;
     border: .3em solid white;
     text-align: center;
 
@@ -29,4 +29,25 @@ img {
 }
 .c4 {
     background-color: #00aba9;
+}
+.heading1 {
+    font-size: 4em;
+}
+.heading2 {
+    font-size: 3em;
+}
+.heading3 {
+    font-size: 2.5em;
+}
+.heading4 {
+    font-size: 2em;
+}
+.heading5 {
+    font-size: 1.75em;
+}
+.abel {
+    font-family: 'Abel', sans-serif;
+}
+.anton {
+    font-family: 'Anton', sans-serif;
 }
