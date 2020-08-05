@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
           integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
     <link rel="stylesheet" href="css/codeup-design.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
 </head>
 <body>
 <!--js links-->
@@ -20,50 +21,71 @@
         crossorigin="anonymous"></script>
 <!--end js links-->
 
-<div class="container-fluid bg-primary">
+<main class="container-fluid bg-primary">
+    <!--Start of Logo-->
     <section class="row">
-        <div class="col-6 bg-white mt-5"><img class="" src="img/assets/logo.png"></div>
+        */position-absolute (putting this in allows the rest of the content to overlay the logo./*
+        <div class="col-12 bg-white mt-5 text-center"><img src="img/assets/logo.png"></div>
     </section>
-    <section class="row">
-        <div class="col-12 text-dark text-center">Codeup design</div>
-    </section>
-    <section class="row">
+    <!--End of Logo-->
+
+    <!--Start of Header-->
+    <Header class="row p-5">
+        <div class="col-12 text-dark text-center heading2 abel">codeup design</div>
+    </Header>
+    <!--End of Header-->
+
+    <!--Start of Nav-links-->
+    <section class="row abel p-3 m-auto heading5">
         <div class="col-3 text-dark text-center">SERVICES</div>
         <div class="col-3 text-dark text-center">WORK</div>
-        <div class="col-3 text-dark text-center">BLOG</div>
+        <div class="col-3 text-dark text-center ">BLOG</div>
         <div class="col-3 text-dark text-center">CONTACT</div>
     </section>
-    <section class="row">
-        <div class="col-12 text-dark text-center d-flex flex-wrap">VISUAL DESIGN & WEB DEVELOPMENT</div>
-        <div class="col-12 text-dark text-center">FROM PARK CITY, UTAH</div>
-    </section>
-    <section class="row">
-        <div class="col-6 text-white">
-            <div class="rounded-circle c1 mx-auto">DESIGN</div>
-        </div>
-        <div class="col-6 text-white">
-            <div class="rounded-circle c2 mx-auto">DEVELOP</div>
-        </div>
-    </section>
-    <section class="row">
-        <div class="col-6 text-white">
-            <div class="rounded-circle c3 mx-auto">SUPPORT</div>
-        </div>
-        <div class="col-6 text-white">
-            <div class="rounded-circle c4 mx-auto">HOST</div>
-        </div>
-    </section>
-    <section class="row">
-        <div class="col-12 text-dark text-center">SELECTED WORK</div>
-    </section>
-    <section class="row">
-        <div class="col-12"><img src="img/assets/images/apple-ipad.jpg"</div>
-    </section>
-    <section class="row">
-        <div class="col-6 text-dark text-center">FEATURED PROJECT</div>
-        <div class="col-6"></div>
-    </section>
+    <!--End of Nav-links-->
 
-</div>
+    <!--Start of Course-->
+    <section class="row anton p-5">
+        <div class="col-12 text-dark text-center heading1">VISUAL DESIGN & WEB DEVELOPMENT</div>
+        <div class="col-12 text-dark text-center heading2 p-5">FROM PARK CITY, UTAH</div>
+    </section>
+    <!--End of Course-->
+
+    <!--Start of Links-->
+    <article>
+        <section class="row p-5">
+            <div class="col-6 text-white">
+                <div class="rounded-circle c1 m-auto">DESIGN</div>
+            </div>
+            <div class="col-6 text-white">
+                <div class="rounded-circle c2 m-auto">DEVELOP</div>
+            </div>
+        </section>
+        <section class="row p-5">
+            <div class="col-6 text-white">
+                <div class="rounded-circle c3 m-auto">SUPPORT</div>
+            </div>
+            <div class="col-6 text-white">
+                <div class="rounded-circle c4 m-auto">HOST</div>
+            </div>
+        </section>
+    </article>
+    <!--End of Links-->
+
+    <!--Start of Footer-->
+    <footer>
+        <section class="row p-5">
+            <div class="col-12 text-dark text-center heading4 my-5">SELECTED WORK</div>
+        </section>
+        <section class="row">
+            <div class="col-12 text-center"><img src="img/assets/images/apple-ipad.jpg"</div>
+        </section>
+        <section class="row">
+            <div class="col-6 text-dark text-center heading4">FEATURED PROJECT</div>
+            <div class="col-6"></div>
+        </section>
+    </footer>
+    <!--End of Footer-->
+</main>
 </body>
 </html>

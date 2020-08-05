@@ -1,7 +1,5 @@
 img {
-
 }
-
 .bg-primary {
     background-color: #e6e6e6 !important;
     color: #e6e6e6 !important;
@@ -11,7 +9,6 @@ img {
     width: 6.5em;
     border: .3em solid white;
     text-align: center;
-
 }
 .icon {
     height: 18px;
