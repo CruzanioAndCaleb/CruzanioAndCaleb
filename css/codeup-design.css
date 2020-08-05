@@ -1,10 +1,40 @@
-.logo {
-    width: 200px;
-    height: 200px;
+/* color mods */
+.gradient {
+    background-image: linear-gradient(
+            #f0f0f0,
+            #f0f0f0 40%,
+            white 40%,
+            white 80%,
+            #f0f0f0 80%
+    );
 }
 .bg-primary {
     background-color: #f0f0f0 !important;
     color: #f0f0f0 !important;
+}
+.c1 {
+    background-color: #e6563b;
+}
+.c2 {
+    background-color: #EB9D3A;
+}
+.c3 {
+    background-color: #7cb06c;
+}
+.c4 {
+    background-color: #00aba9;
+}
+.a:hover {
+    background-color: #555555 !important;
+    /*color: darkorange !important;*/
+    border-radius: 20px;
+}
+
+
+/* container sizing */
+.logo {
+    width: 200px;
+    height: 200px;
 }
 .lrg-circle {
     width: 200px;
@@ -21,18 +51,8 @@
     border: 1em solid #e6e6e6;
 }
 
-.c1 {
-    background-color: #e6563b;
-}
-.c2 {
-    background-color: #EB9D3A;
-}
-.c3 {
-    background-color: #7cb06c;
-}
-.c4 {
-    background-color: #00aba9;
-}
+
+/* font sizing/families */
 .heading1 {
     font-size: 4em;
 }
@@ -53,13 +73,4 @@
 }
 .anton {
     font-family: 'Anton', sans-serif;
-}
-.gradient {
-    background-image: linear-gradient(
-            #f0f0f0,
-            #f0f0f0 40%,
-            white 40%,
-            white 80%,
-            #f0f0f0 80%
-    );
 }
