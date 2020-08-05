@@ -3,8 +3,8 @@
     height: 200px;
 }
 .bg-primary {
-    background-color: #e6e6e6 !important;
-    color: #e6e6e6 !important;
+    background-color: #f0f0f0 !important;
+    color: #f0f0f0 !important;
 }
 .lrg-circle {
     width: 200px;
@@ -16,6 +16,9 @@
     height: 50px;
     width: 50px;
     text-align: center;
+}
+.img-sm {
+    border: 1em solid #e6e6e6;
 }
 
 .c1 {
@@ -53,10 +56,10 @@
 }
 .gradient {
     background-image: linear-gradient(
-            #e6e6e6,
-            #e6e6e6 40%,
+            #f0f0f0,
+            #f0f0f0 40%,
             white 40%,
             white 80%,
-            #e6e6e6 80%
+            #f0f0f0 80%
     );
 }
