@@ -6,17 +6,18 @@
     background-color: #e6e6e6 !important;
     color: #e6e6e6 !important;
 }
-.rounded-circle {
+.lrg-circle {
     width: 200px;
     height: 200px;
     border: 1em solid #ffffff;
     text-align: center;
 }
 .icon {
-    height: 18px;
-    width: 18px;
+    height: 50px;
+    width: 50px;
     text-align: center;
 }
+
 .c1 {
     background-color: #e6563b;
 }
