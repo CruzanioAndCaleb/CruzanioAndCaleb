@@ -7,9 +7,9 @@
     color: #e6e6e6 !important;
 }
 .rounded-circle {
-    height: 11em;
-    width: 11em;
-    border: .3em solid #ffffff;
+    width: 200px;
+    height: 200px;
+    border: 1em solid #ffffff;
     text-align: center;
 }
 .icon {
