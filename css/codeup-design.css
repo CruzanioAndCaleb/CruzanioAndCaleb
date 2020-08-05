@@ -1,13 +1,15 @@
-img {
+.logo {
+    width: 200px;
+    height: 200px;
 }
 .bg-primary {
     background-color: #e6e6e6 !important;
     color: #e6e6e6 !important;
 }
 .rounded-circle {
-    height: 6.5em;
-    width: 6.5em;
-    border: .3em solid white;
+    height: 11em;
+    width: 11em;
+    border: .3em solid #ffffff;
     text-align: center;
 }
 .icon {
@@ -47,4 +49,13 @@ img {
 }
 .anton {
     font-family: 'Anton', sans-serif;
+}
+.gradient {
+    background-image: linear-gradient(
+            #e6e6e6,
+            #e6e6e6 40%,
+            white 40%,
+            white 80%,
+            #e6e6e6 80%
+    );
 }
