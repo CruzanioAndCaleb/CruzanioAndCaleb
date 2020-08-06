@@ -71,6 +71,7 @@
 .thumbnails {
     height: 50px;
     width: 50px;
+    margin-right: .5em;
 }
 .img-sm {
     border: 1em solid #e6e6e6;
