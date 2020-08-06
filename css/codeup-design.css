@@ -50,7 +50,14 @@
 .tweet {
     color: #00acee;
 }
-
+.puppiness {
+    height: 100%;
+    position: relative;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    border: 1em solid #e6e6e6;
+}
 
 /* container sizing */
 .logosm {
