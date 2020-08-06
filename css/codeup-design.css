@@ -54,12 +54,14 @@
     height: 200px;
     border: 1em solid #ffffff;
     text-align: center;
+    border-radius: 50%;
 }
 .sm-circle {
     width: 150px;
     height: 150px;
     border: 1em solid #ffffff;
     text-align: center;
+    border-radius: 50%;
 }
 .icon {
     height: 35px;
@@ -102,4 +104,5 @@
 }
 a {
     color: black !important;
+    text-decoration: none !important;
 }
