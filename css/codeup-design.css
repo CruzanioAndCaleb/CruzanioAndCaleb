@@ -1,11 +1,20 @@
 /* color mods */
-.gradient {
+.gradientsm {
     background-image: linear-gradient(
             #f0f0f0,
             #f0f0f0 40%,
             white 40%,
             white 80%,
             #f0f0f0 80%
+    );
+}
+.gradientmd {
+    background-image: linear-gradient(
+            #f0f0f0,
+            #f0f0f0 25%,
+            white 25%,
+            white 70%,
+            #f0f0f0 70%
     );
 }
 .bg-primary {
@@ -32,13 +41,23 @@
 
 
 /* container sizing */
-.logo {
+.logosm {
     width: 200px;
     height: 200px;
+}
+.logomd {
+    width: 150px;
+    height: 150px;
 }
 .lrg-circle {
     width: 200px;
     height: 200px;
+    border: 1em solid #ffffff;
+    text-align: center;
+}
+.sm-circle {
+    width: 150px;
+    height: 150px;
     border: 1em solid #ffffff;
     text-align: center;
 }
