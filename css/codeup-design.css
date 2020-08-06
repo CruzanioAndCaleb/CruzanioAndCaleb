@@ -38,6 +38,9 @@
     /*color: darkorange !important;*/
     border-radius: 20px;
 }
+.tweet {
+    color: #00acee;
+}
 
 
 /* container sizing */
@@ -64,9 +67,13 @@
     border-radius: 50%;
 }
 .icon {
-    height: 35px;
-    width: 35px;
+    height: 18px;
+    width: 18px;
     text-align: center;
+    font-size: 9px;
+}
+.feat {
+    font-size: 15px;
 }
 .thumbnails {
     height: 50px;
@@ -83,19 +90,19 @@
 
 /* font sizing/families */
 .heading1 {
-    font-size: 4em;
+    font-size: 64px;
 }
 .heading2 {
-    font-size: 3em;
+    font-size: 48px;
 }
 .heading3 {
-    font-size: 2.5em;
+    font-size: 40px;
 }
 .heading4 {
-    font-size: 2em;
+    font-size: 32px;
 }
 .heading5 {
-    font-size: 1.75em;
+    font-size: 28px;
 }
 .abel {
     font-family: 'Abel', sans-serif;
