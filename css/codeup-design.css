@@ -66,6 +66,10 @@
     width: 35px;
     text-align: center;
 }
+.thumbnails {
+    height: 50px;
+    width: 50px;
+}
 .img-sm {
     border: 1em solid #e6e6e6;
 }
