@@ -73,6 +73,9 @@
 .img-sm {
     border: 1em solid #e6e6e6;
 }
+.img-md {
+    border: .3em solid #e6e6e6;
+}
 
 
 /* font sizing/families */
@@ -96,4 +99,7 @@
 }
 .anton {
     font-family: 'Anton', sans-serif;
+}
+a {
+    color: black !important;
 }
